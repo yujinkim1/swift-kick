@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1CFD572F2A67BF00005336D6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD572E2A67BF00005336D6 /* main.swift */; };
+		1CFD57392A67C280005336D6 /* 문자열_곱하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD57382A67C280005336D6 /* 문자열_곱하기.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,7 @@
 		1CFD572B2A67BF00005336D6 /* SwiftKick */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftKick; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFD572E2A67BF00005336D6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1CFD57352A67BF62005336D6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1CFD57382A67C280005336D6 /* 문자열_곱하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자열_곱하기.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +61,26 @@
 		1CFD572D2A67BF00005336D6 /* SwiftKick */ = {
 			isa = PBXGroup;
 			children = (
+				1CFD57362A67C1E3005336D6 /* Programmers */,
 				1CFD572E2A67BF00005336D6 /* main.swift */,
 			);
 			path = SwiftKick;
+			sourceTree = "<group>";
+		};
+		1CFD57362A67C1E3005336D6 /* Programmers */ = {
+			isa = PBXGroup;
+			children = (
+				1CFD57372A67C1EC005336D6 /* BeginnerLevel */,
+			);
+			path = Programmers;
+			sourceTree = "<group>";
+		};
+		1CFD57372A67C1EC005336D6 /* BeginnerLevel */ = {
+			isa = PBXGroup;
+			children = (
+				1CFD57382A67C280005336D6 /* 문자열_곱하기.swift */,
+			);
+			path = BeginnerLevel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CFD57392A67C280005336D6 /* 문자열_곱하기.swift in Sources */,
 				1CFD572F2A67BF00005336D6 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
