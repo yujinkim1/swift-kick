@@ -15,7 +15,7 @@
  */
 import Foundation
 
-func solution(_ n: Int, _ k: Int) -> [Int] {
+func p181901(_ n: Int, _ k: Int) -> [Int] {
 	var result: [Int] = []
 	for element in 1...n {
 		if element % k == 0 {
