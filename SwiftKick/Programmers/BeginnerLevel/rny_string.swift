@@ -17,7 +17,7 @@
  */
 import Foundation
 
-func solution(_ rnyString: String) -> String {
+func p181863(_ rnyString: String) -> String {
 	let myString: String = rnyString
 	var result: String = myString.replacingOccurrences(of: "m", with: "rn")
 	return result
