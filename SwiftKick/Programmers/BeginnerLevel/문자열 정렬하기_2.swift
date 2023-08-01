@@ -16,7 +16,7 @@
  */
 import Foundation
 
-func p120911(_ my_string: String) -> String {
-	let smallLetters: String = my_string.lowercased()
+func p120911(_ myString: String) -> String {
+	let smallLetters: String = myString.lowercased()
 	return String(smallLetters.sorted())
 }
