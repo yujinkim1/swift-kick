@@ -15,7 +15,7 @@
  */
 import Foundation
 
-func solution(_ array: [Int], _ height: Int) -> Int {
+func p120585(_ array: [Int], _ height: Int) -> Int {
 	let validList: [Int] = array
 	var result: Int = 0
 	validList.forEach { element in
