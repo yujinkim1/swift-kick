@@ -16,7 +16,7 @@
  */
 import Foundation
 
-func solution(_ dots: [[Int]]) -> Int {
+func p120860(_ dots: [[Int]]) -> Int {
 	var xPositions: Set<Int> = []
 	var yPositions: Set<Int> = []
 	
