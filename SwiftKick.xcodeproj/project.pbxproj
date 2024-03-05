@@ -195,12 +195,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C8A274E2A88D405008B2738 /* IntermediateLevel */ = {
+		1C8A274E2A88D405008B2738 /* LV.1 */ = {
 			isa = PBXGroup;
 			children = (
 				1C8A27552A88E0AE008B2738 /* 문자열_내_마음대로_정렬하기.swift */,
 			);
-			path = IntermediateLevel;
+			path = LV.1;
 			sourceTree = "<group>";
 		};
 		1CFD57222A67BF00005336D6 = {
@@ -232,13 +232,13 @@
 		1CFD57362A67C1E3005336D6 /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
-				1C8A274E2A88D405008B2738 /* IntermediateLevel */,
-				1CFD57372A67C1EC005336D6 /* BeginnerLevel */,
+				1C8A274E2A88D405008B2738 /* LV.1 */,
+				1CFD57372A67C1EC005336D6 /* LV.0 */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
 		};
-		1CFD57372A67C1EC005336D6 /* BeginnerLevel */ = {
+		1CFD57372A67C1EC005336D6 /* LV.0 */ = {
 			isa = PBXGroup;
 			children = (
 				1CFD57382A67C280005336D6 /* 문자열_곱하기.swift */,
@@ -319,7 +319,7 @@
 				1CC7E1FC2A78A27F00ECAC41 /* 제곱수_판별하기.swift */,
 				1CC7E1FE2A78A2AC00ECAC41 /* 최댓값_만들기_1.swift */,
 			);
-			path = BeginnerLevel;
+			path = LV.0;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
