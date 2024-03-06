@@ -141,6 +141,8 @@
 		1C3C92F52A76AC8400B0B5FC /* 할_일_목록.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "할_일_목록.swift"; sourceTree = "<group>"; };
 		1C3C92F72A76ACB100B0B5FC /* 뒤에서_5등_위로.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "뒤에서_5등_위로.swift"; sourceTree = "<group>"; };
 		1C3C92F92A76ACE100B0B5FC /* 순서_바꾸기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "순서_바꾸기.swift"; sourceTree = "<group>"; };
+		1C4239FE2BAB1ECE00D21D2A /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		1C4239FF2BAB1EE600D21D2A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1C8A274C2A88CDD5008B2738 /* 문자열안에_문자열.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자열안에_문자열.swift"; sourceTree = "<group>"; };
 		1C8A274F2A88D47B008B2738 /* 첫_번째로_나오는_음수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "첫_번째로_나오는_음수.swift"; sourceTree = "<group>"; };
 		1C8A27512A88D6AA008B2738 /* 자릿수_더하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "자릿수_더하기.swift"; sourceTree = "<group>"; };
@@ -195,9 +197,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C4239FD2BAB1E6200D21D2A /* 문자열을 정수로 바꾸기 */ = {
+			isa = PBXGroup;
+			children = (
+				1C4239FE2BAB1ECE00D21D2A /* Solution.swift */,
+				1C4239FF2BAB1EE600D21D2A /* README.md */,
+			);
+			name = "문자열을 정수로 바꾸기";
+			path = "문자열을 정수로 바꾸기";
+			sourceTree = "<group>";
+		};
 		1C8A274E2A88D405008B2738 /* LV.1 */ = {
 			isa = PBXGroup;
 			children = (
+				1C4239FD2BAB1E6200D21D2A /* 문자열을 정수로 바꾸기 */,
 				1C8A27552A88E0AE008B2738 /* 문자열_내_마음대로_정렬하기.swift */,
 			);
 			path = LV.1;
